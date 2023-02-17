@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: darkred;
+}
+.search-container input{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.search-container button{
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.search-container button:hover{
+    background-color: #fff;
+}
+.search-container{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%,-5%);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.right-container h1{
+    text-align: center;   
+    position: relative;
+}
+
+.right-container img{
+    width: 40px;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+.genre{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.plot{
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;   
+}
+.plot p:first-child{
+    font-weight: 700;
+}
+.cast{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cast p:first-child{
+    font-weight: 700;
+}
